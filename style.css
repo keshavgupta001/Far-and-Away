@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body{
+    /* background-color: #E5E5E5; */
+    background-color: #E6DCD4;
+}
+
+html{
+    font-size: 62.5%;
+}
+.first-yellow-rectangle{
+    width: 100%;
+    height: 3.6rem;
+    background-color: #D5C5AD;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-most-text{
+    font-family: halyard display;
+    font-size: 1.4rem;
+    line-height: 140%;
+}
+/*background image and all content styling*/
+.div-containing-image-and-everything{
+    background-image: url(images/Hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 77.4rem;
+}
+.upper-to-hr{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color: white;
+    font-style: normal;
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+.left-one{
+    /* display: flex; */
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    margin-left: 0.8rem;
+    text-align: left;
+}
+.left-margin-for-span-inside-div-above-hr{
+    margin-left: 2.4rem;
+}
+.middle-one{
+    /* display: flex; */
+    font-size: 1.8rem;
+    margin: 1.8rem;
+    text-align: center;
+}
+.right-one{
+    /* display: flex; */
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    margin-right: 0.8rem;
+    text-align: right;
+}
+.right-margin-for-span-inside-div-above-hr{
+    margin-right: 3.2rem;
+}
+.middle-text-inside-bg-image{
+    display: inline-block;
+    width: 35.8rem;
+    height: 18.6rem;
+    font-size: 4.6rem;
+    margin-left: 7.1rem;
+    margin-top: 12.1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    line-height: 6.24rem;
+    color: #ffffff;
+}
+.div-EXPLORE-THE-RANGE{
+    display: block;
+    width: 18rem;
+    /* height: 4.4rem; */
+    margin-top: 3.6rem;
+    margin-left: 7.1rem;
+    text-align: center;
+}
+.button-EXPLORE-THE-RANGE{
+    /* width: 18rem; */
+    height: 4.4rem;
+    color: #474747;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+/* DONT CHANGE ABOVE STYLES NOW */
+/* styling of second view,i.e., down the background image */
+.second-image-and-text-on-its-side{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.8rem;
+}
+.second-image-below-the-bg-image{
+    width: 66.04%;
+    height: 80.23%;
+    margin-left: 2rem;
+}
+.text-of-second-image-starting-from-Crafted{
+    
+    width: 33.95%;
+}
+.text-of-second-image-starting-from-Crafted-div1{
+
+    display: inline-block;
+    width: 23rem;
+    height: 9.6;
+    font-weight: normal;
+    line-height: 120%;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 4rem;
+    color: #474747;
+    margin-left: 12.5rem;
+    /* margin-right: 18.1rem; */
+    margin-top: 40%;
+}
+
+
+.text-of-second-image-starting-from-Crafted-div2{
+    display: inline-block;
+    width: 22.7rem;
+    height: 9.6;
+    font-weight: normal;
+    line-height: 140%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #474747;
+    margin-left: 12.5rem;
+    margin-top: 1.6rem;
+}
+.text-of-second-image-starting-from-Crafted-div3{
+    display: inline-block;
+    width: 22.1rem;
+    height: 1.2rem;
+    font-weight: bold;
+    line-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #474747;
+    margin-left: 12.5rem;
+    margin-top: 3.4rem;
+}
+.text-starting-from-Bridging{
+    width: 81.4rem;
+    height: 18.6rem;
+    margin: auto;
+    margin-bottom: 0%;
+    margin-top: 9rem;
+    color: #474747;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 4.3rem;
+    font-weight:400;
+    line-height: 120%;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+
+@media(max-width: 998px) {
+    html{
+        font-size: 59%;
+    }
+}
+@media(max-width: 762px) {
+    html{
+        font-size: 52%;
+    }
+}
+@media(max-width: 415px) {
+    html{
+        font-size: 48%;
+    }
+    .first-yellow-rectangle{
+        width: 414px;
+    }
+    .div-containing-image-and-everything{
+        background-image: url(images/Hero1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 414px;
+        min-width: 100%;
+        height: 79.6rem;
+    }
+    .second-image-and-text-on-its-side{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.8rem;
+    }
+    .upper-to-hr{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        line-height: 2.2rem;
+        font-size: 1.6rem;
+        font-weight: lighter;
+    }
+    .left-one{
+        visibility: hidden;
+    }
+    .middle-one{
+        width: 200rem;
+        font-size: 3rem;
+        margin: auto;
+        text-align: center;
+    }
+    .right-one{
+        visibility: hidden;
+    }
+    .middle-text-inside-bg-image{
+        display: block;
+        width: 35.8rem;
+        height: 18.6rem;
+        font-size: 4.6rem;
+        margin-top: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        font-weight: 200;
+        line-height: 6.24rem;
+        color: #ffffff;
+    }
+    .div-EXPLORE-THE-RANGE{
+        display: block;
+        width: 18rem;
+        /* height: 4.4rem; */
+        margin-top: 2.8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button-EXPLORE-THE-RANGE{
+        /* width: 18rem; */
+        height: 4.4rem;
+        color: #474747;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+    }
+    /* new view */
+    .second-image-and-text-on-its-side{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.8rem;
+        /* padding-right: 2rem; */
+    }
+    .second-image-below-the-bg-image{
+        width: 374px;
+        height: 248px;
+    }
+    .text-of-second-image-starting-from-Crafted{
+    
+        width: auto;
+    }
+    .text-of-second-image-starting-from-Crafted-div1{
+    
+        display: inline-block;
+        width: 414px;
+        font-weight: normal;
+        line-height: 120%;
+        font-family: 'Kaisei Opti', serif;
+        font-size: 4rem;
+        color: #474747;
+        margin-left: 2rem;
+        margin-top: 3.6rem;
+    }
+    .text-of-second-image-starting-from-Crafted-div2{
+        display: inline-block;
+        width: 400px;
+        font-weight: normal;
+        line-height: 140%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+        color: #474747;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1.6rem;
+    }
+    .text-of-second-image-starting-from-Crafted-div3{
+        display: inline-block;
+        width: 400px;
+        font-weight: bold;
+        line-height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        color: #474747;
+        margin-left: 2rem;
+        margin-top: 3.4rem;
+    }
+    
+}
